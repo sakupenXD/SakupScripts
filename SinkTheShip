@@ -1,0 +1,26 @@
+while wait do
+   local args = {
+       [1] = "Boat1"
+   }
+
+   game:GetService("ReplicatedStorage"):WaitForChild("Spawn_Boat"):FireServer(unpack(args))
+
+wait(0.5)
+
+   game:GetService("ReplicatedStorage"):WaitForChild("SinkOption"):FireServer()
+
+wait(9)
+
+   game:GetService("ReplicatedStorage"):WaitForChild("SinkOption"):FireServer()
+
+wait(0.5)
+
+   function getNil(name,class) for _,v in next, getnilinstances() do if    v.ClassName==class and v.Name==name then return v;end end end
+
+   local args = {
+       [1] = getNil("Zxc_sakupensBoat", "Model")
+   }
+
+   game:GetService("ReplicatedStorage"):WaitForChild("Delete_Boat"):FireServer(unpack(args))
+
+end
