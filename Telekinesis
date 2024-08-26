@@ -1,7 +1,7 @@
 
 -- Super cool telekinesis script for most of devices
 
-Range = "Min" -- "Min" (no lag), "Max" (lag), "Default" (fastest)
+Range = "Max" -- default value
 
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
@@ -14,9 +14,7 @@ BP.Position = BP.Position + Vector3.new(0, 0.1, 0)
 task.spawn(function()
 game:GetService("RunService").RenderStepped:Connect(function()
 if Range == "Max" then
-sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 0)
-elseif Range == "Min" then
-sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 5000)
+sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", 999999)
 end
 end)
 end)
