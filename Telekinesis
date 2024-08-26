@@ -1,7 +1,7 @@
 
 -- Super cool telekinesis script for most of devices
 
-Range = "Max" -- "Min" (no lag), "Max" (lag), "Default" (fastest)
+Range = "Default" -- "Min" (no lag), "Max" (lag), "Default" (fastest)
 
 local BP = Instance.new("BodyPosition")
 BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
