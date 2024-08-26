@@ -4,7 +4,7 @@
 Range = "Max" -- default value
 
 local BP = Instance.new("BodyPosition")
-BP.maxForce = Vector3.new(math.huge * math.huge, math.huge * math.huge, math.huge * math.huge)
+BP.maxForce = Vector3.new(math.huge, math.huge, math.huge)
 BP.P = BP.P * 1.1
 
 local BP = Instance.new("BodyPosition")
@@ -35,7 +35,7 @@ local function a(b, c)
     setfenv(c, e)
     return c
 end
-local power = 1000
+local power = 999999
 local usrinput = game:GetService("UserInputService")
 local g = {}
 local h = Instance.new("Model", game:GetService("Lighting"))
