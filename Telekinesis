@@ -11,6 +11,10 @@ local BP = Instance.new("BodyPosition")
 BP.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
 BP.Position = BP.Position + Vector3.new(0, 0.1, 0)
 
+if Range == "Max" then
+    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Telekinesis V2"; Text = "sub to @sakupenguy"; Icon = "rbxasset://16250076445"}) Duration = 3;
+end
+
 task.spawn(function()
 game:GetService("RunService").RenderStepped:Connect(function()
 if Range == "Max" then
