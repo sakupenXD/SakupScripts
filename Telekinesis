@@ -12,7 +12,7 @@ BP.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
 BP.Position = BP.Position + Vector3.new(0, 0.1, 0)
 
 if Range == "Max" then
-    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Telekinesis V2"; Text = "sub to @sakupenguy"; Icon = "rbxasset://16250076445"}) Duration = 3;
+    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Telekinesis V2"; Text = "sub to @sakupenguy"; Icon = "https://tr.rbxcdn.com/e433878b0468ac1e6c09322ca5dfc147/420/420/Decal/Webp"}) Duration = 3;
 end
 
 task.spawn(function()
