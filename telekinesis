@@ -44,6 +44,6 @@ game:GetService("UserInputService").InputChanged:Connect(function(input)
     end
 end)
 
-script.Parent.MouseButton1Click:Connect(
+Frame.Parent.MouseButton1Click:Connect(
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sakupenXD/SakupScripts/main/Telekinesis",true))()
 end)
