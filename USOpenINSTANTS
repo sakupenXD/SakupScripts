@@ -1,19 +1,40 @@
-a = {    [1] = "PurchaseItem",    [2] = 137811828506497 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait (9)
-a = {    [1] = "PurchaseItem",    [2] = 128126920836733 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = {    [1] = "PurchaseItem",    [2] = 125476772235106 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = {    [1] = "PurchaseItem",    [2] = 18963077939 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = {    [1] = "PurchaseItem",    [2] = 14532341736 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = {    [1] = "PurchaseItem",    [2] = 14532403795 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = {    [1] = "PurchaseItem",    [2] = 14532366140 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = { [1] = "PurchaseItem", [2] = 90091760204142 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = { [1] = "PurchaseItem", [2] = 15633597919 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
-wait(9)
-a = { [1] = "PurchaseItem", [2] = 113708793575100 }game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.2"))()
+
+local window = Lib:CreateWindow("US Open UGC GUI")
+local tab = window:CreateTab("Main")
+
+local items = {
+    { name = "Emirates Hot Cocoa Backpack", id = "137811828506497" },
+    { name = "US Open Pizza Slice Racket Bag", id = "128126920836733" },
+    { name = "[Content Deleted]", id = "9009176020414" },
+    { name = "[Content Deleted]", id = "11370879357510" },
+    { name = "Emirates Airplane Shoulder Pet", id = "125476772235106" },
+    { name = "Exclusive US Open UGC (lanyard)", id = "18963077939" },
+    { name = "US Open Racket Shades", id = "14532341736" },
+    { name = "Billie Jean King Glasses", id = "14532403795" },
+    { name = "Lobster Roll Shoulder Pet", id = "14532366140" }, 
+    { name = "Ralph Lauren US Open Reversible Bucket Hat", id = "90091760204142" }, 
+    { name = "ChristmasTree Jacket", id = "15633597919" },
+    { name = "Ralph Lauren US Open Ball Crew Short", id = "113708793575100" }
+}
+
+local itemNames = {}
+for i, item in ipairs(items) do
+    table.insert(itemNames, item.name)
+end
+
+tab:CreateDropdown("Select Item", itemNames, function(selectedName)
+    for i, item in ipairs(items) do
+        if item.name == selectedName then
+            selectedItem = tonumber(item.id)
+            break
+        end
+    end
+end)
+
+tab:CreateButton("Redeem Item", function()
+    if selectedItem then
+        local a = { [1] = "PurchaseItem", [2] = selectedItem }
+        game:GetService("ReplicatedStorage"):WaitForChild("Shop_purchaseUnlimitedUGCServerEvent"):FireServer(unpack(a))
+    end
+end)
