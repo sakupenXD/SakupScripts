@@ -18,7 +18,7 @@ local items = {
     { name = "Ralph Lauren US Open Ball Crew Short", id = "113708793575100" }
 }
 
-game:GetService("StarterGui"):SetCore("SendNotification", { Title = "US Open UGC GUI launched"; Text = "sub to @sakupenguy"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 5;
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "US Open UGC GUI launched"; Text = "10 ugc available"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 5;
 
 local itemNames = {}
 for i, item in ipairs(items) do
