@@ -41,6 +41,9 @@ end)
 game:GetService("UserInputService").InputChanged:Connect(function(input)
     if input == dragInput and dragging then
         update(input)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/sakupenXD/SakupScripts/main/Telekinesis",true))()
     end
+end)
+
+script.Parent.MouseButton1Click:Connect(
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sakupenXD/SakupScripts/main/Telekinesis",true))()
 end)
