@@ -12,7 +12,7 @@ BP.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
 BP.Position = BP.Position + Vector3.new(0, 0.1, 0)
 
 if Range == "Def" then
-    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Telekinesis V2"; Text = "sub to @sakupenguy"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 3;
+    game:GetService("StarterGui"):SetCore("SendNotification", { Title = "TelekinesisV2"; Text = "sub to @sakupenguy"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 3;
 end
 
 task.spawn(function()
