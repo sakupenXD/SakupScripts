@@ -1,4 +1,3 @@
--- the code is extremely messy because something in the code editor fucked it up all at once and for some reason removed indents in some parts of the code while kept indents in some other parts of the code LOL
 local LOAD_TIME = tick()
 
 local queueonteleport = queue_on_teleport or queueonteleport
@@ -9,7 +8,7 @@ local firetouchinterests = fire_touch_interests or firetouchinterests
 if getnamecallmethod then
     local getnamecallmethod = get_namecall_method or getnamecallmethod
 end
--- // cloneref function for exploits that dont support it
+-- cloneref function
 local a = Instance.new("Part")
 for b, c in pairs(getreg()) do
     if type(c) == "table" and #c then
@@ -122,19 +121,18 @@ end
 task.spawn(
     function()
         local discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/Imalwibest/Imalwibest/main/Config%20wynerdV.lua"))()
-        local win = discord:Window("Wynerd 1.4 - redblues edition skidded by alwi hub")
+        local win = discord:Window("Syvern")
         local serv = win:Server("Wynerd", "http://www.roblox.com/asset/?id=6031075938")
         local main = serv:Channel("Home")
-        main:Label("\nThank you for using Wynerd!\nThe #2 UGC Games Penetration Testing Tool! (mine is still better)")
-        main:Label("Check out the other Discord channels to see our available tools!")
+        main:Label("\n#1 UGC Games Penetration Testing Tool! (gg ez)")
         main:Seperator()
-        -- main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- Move some stuff that doesn't belong in their category\n- More features\n- New techniques to get free UGC items from games")
+        main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- Move some stuff that doesn't belong in their category\n- More features\n- New techniques to get free UGC items from games")
         main:Button(
             "something was here but was removed",
             function()
                 pcall(
                     function()
-                        setclipboard("https://discord.com/invite/rQc3QqRxpt")
+                        print("this is something i guess")
                     end
                 )
             end
@@ -172,17 +170,14 @@ task.spawn(
         main:Button(
             "Update Logs",
             function()
-                discord:Notification("Updates", "...", "Okay!")
+                discord:Notification("updates", "a lot of new stuff", "ok")
             end
         )
-        main:Label("Added autopurchaser for the PromptBulkPurchase!")
-        main:Label("Added more inputs!")
-        main:Label("Optimized code for celery")
 
         main:Button(
             "Credits",
             function()
-                discord:Notification("Credits", "i forgot, will be putting soon", "Okay!")
+                discord:Notification("credits", "sir pelo (sakup)", "ok")
             end
         )
         local ugc = serv:Channel("UGC Limiteds")
@@ -192,7 +187,7 @@ task.spawn(
         ugc:Label(
             "\nThis will auto purchase any limited that gets prompted!\nThis is recommended to use in the rolimons game.\n"
         )
-        ugc:Label("With this, you can get #1 serials of web UGC item drops!")
+        ugc:Label("with this, you can get any serial of web UGC item drops!")
         local li13 = "zo553xy4hv/war/p/liaf."
         ugc:Button(
             "Teleport to Rolimons UGC Game",
