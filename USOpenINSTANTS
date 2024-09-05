@@ -1,6 +1,6 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.2"))()
 
-local window = Lib:CreateWindow("US Open UGC GUI")
+local window = Lib:CreateWindow("USOpen UGC GUI v1.1")
 local tab = window:CreateTab("Main")
 
 local items = {
