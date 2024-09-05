@@ -14,7 +14,7 @@ local items = {
     { name = "Billie Jean King Glasses", id = "14532403795" },
     { name = "Lobster Roll Shoulder Pet", id = "14532366140" }, 
     { name = "Ralph Lauren US Open Reversible Bucket Hat", id = "90091760204142" }, 
-    { name = "ChristmasTree Jacket", id = "15633597919" },
+    { name = "SOLD OUT", id = "15633597919" },
     { name = "Ralph Lauren US Open Ball Crew Short", id = "113708793575100" }
 }
 
