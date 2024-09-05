@@ -11,23 +11,19 @@ local items = {
 game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Merge for DIAMONDS GUI launched"; Text = "miencraft moment"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 5;
 
 tab:CreateButton("INF MONEY", function()
-    if isenabled then
-        while wait() do local args = {
-            [1] = 4
-        }
+    while wait() do local args = {
+        [1] = 4
+    }
 
-        game:GetService("ReplicatedStorage").Remotes.SpinWheelPrizeEvent:FireServer(unpack(args))
-        end
+    game:GetService("ReplicatedStorage").Remotes.SpinWheelPrizeEvent:FireServer(unpack(args))
     end
 end)
 tab:CreateButton("INF GEMS", function()
-    if isenabled then
-        local args = {
-            [1] = 9000000 
-        }
+    local args = {
+        [1] = 9000000 
+    }
 
-        game:GetService("ReplicatedStorage").Remotes.GemEvent:FireServer(unpack(args))
-        end
+    game:GetService("ReplicatedStorage").Remotes.GemEvent:FireServer(unpack(args))
     end
 end)
 
