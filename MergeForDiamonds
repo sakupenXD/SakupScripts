@@ -30,7 +30,7 @@ tab:CreateButton("INF MONEY", function()
         }
 
         game:GetService("ReplicatedStorage").Remotes.SpinWheelPrizeEvent:FireServer(unpack(args))
-    end
+        end
     end
 end)
 
