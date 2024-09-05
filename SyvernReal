@@ -695,7 +695,7 @@ task.spawn(
         ugc:Seperator()
 
         ugc:Label(
-            "\nUwU Sniper, Created by Redblue, this is like the good ol' days\ni miss xolo and mewt\nno prompt needed and basically instant \n"
+            "\nsame as auto purchase v2, Created by Redblue, this is like the good ol' days\ni miss xolo and mewt\nno prompt needed and basically instant \n"
         )
         local snipeid = 123456789
         ugc:Textbox(
@@ -738,7 +738,7 @@ task.spawn(
         local xd = 0
         local breakLoopp = false
         ugc:Toggle(
-            "Enable UwU Sniper (No Prompt Needed)",
+            "Enable web purchase v3 (No Prompt Needed)",
             false,
             function(bool)
                 amountbought = 0
@@ -761,7 +761,7 @@ task.spawn(
                         end
                     end
                     discord:Notification(
-                        "Wynerd Sniper Started!",
+                        "auto pruchase v3 Started!",
                         "Information Grabbed:\n" .. tostring(output),
                         "Close!"
                     )
