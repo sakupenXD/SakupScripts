@@ -2,6 +2,7 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/R
 
 local window = Lib:CreateWindow("USOpen UGC GUI v1.1")
 local tab = window:CreateTab("Main")
+local isenabled = true
 
 local items = {
     { name = "Ralph Lauren US Open Ball Crew Short", id = "113708793575100" }
@@ -9,22 +10,8 @@ local items = {
 
 game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Merge for DIAMONDS GUI launched"; Text = "miencraft moment"; Icon = "rbxthumb://type=Asset&id=16250076445&w=150&h=150"}) Duration = 5;
 
-local itemNames = {}
-for i, item in ipairs(items) do
-    table.insert(itemNames, item.name)
-end
-
-tab:CreateDropdown("Select Item", itemNames, function(selectedName)
-    for i, item in ipairs(items) do
-        if item.name == selectedName then
-            selectedItem = tonumber(item.id)
-            break
-        end
-    end
-end)
-
 tab:CreateButton("INF MONEY", function()
-    if selectedItem then
+    if isenabled then
         while wait() do local args = {
             [1] = 4
         }
