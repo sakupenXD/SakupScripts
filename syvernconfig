@@ -199,7 +199,7 @@ function DiscordLib:Window(text)
 
 	Userpad.Name = "Userpad"
 	Userpad.Parent = TopFrameHolder
-	Userpad.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	Userpad.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Userpad.BorderSizePixel = 0
 	Userpad.Position = UDim2.new(0.106243297, 0, 15.9807148, 0)
 	Userpad.Size = UDim2.new(0, 179, 0, 43)
@@ -232,13 +232,13 @@ function DiscordLib:Window(text)
 	
 	UserName.Name = "UserName"
 	UserName.Parent = Userpad
-	UserName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	UserName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 	UserName.BackgroundTransparency = 1.000
 	UserName.BorderSizePixel = 0
 	UserName.Position = UDim2.new(0.230000004, 0, 0.115999997, 0)
 	UserName.Size = UDim2.new(0, 98, 0, 17)
 	UserName.Font = Enum.Font.GothamSemibold
-	UserName.TextColor3 = Color3.fromRGB(255, 255, 255)
+	UserName.TextColor3 = Color3.fromRGB(255, 0, 0)
 	UserName.TextSize = 13.000
 	UserName.TextXAlignment = Enum.TextXAlignment.Left
 	UserName.ClipsDescendants = true
@@ -251,7 +251,7 @@ function DiscordLib:Window(text)
 	UserTag.Position = UDim2.new(0.230000004, 0, 0.455000013, 0)
 	UserTag.Size = UDim2.new(0, 95, 0, 17)
 	UserTag.Font = Enum.Font.Gotham
-	UserTag.TextColor3 = Color3.fromRGB(255, 255, 255)
+	UserTag.TextColor3 = Color3.fromRGB(255, 0, 0)
 	UserTag.TextSize = 13.000
 	UserTag.TextTransparency = 0.300
 	UserTag.TextXAlignment = Enum.TextXAlignment.Left
