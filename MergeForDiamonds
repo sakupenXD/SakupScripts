@@ -20,4 +20,14 @@ tab:CreateButton("INF MONEY", function()
         end
     end
 end)
+tab:CreateButton("INF GEMS", function()
+    if isenabled then
+        local args = {
+            [1] = 9000000 
+        }
+
+        game:GetService("ReplicatedStorage").Remotes.GemEvent:FireServer(unpack(args))
+        end
+    end
+end)
 
