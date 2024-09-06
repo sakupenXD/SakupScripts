@@ -4,21 +4,10 @@ local window = Lib:CreateWindow("USOpen UGC GUI v1.1")
 local tab = window:CreateTab("Main")
 
 local items = {
-    { name = "Emirates Hot Cocoa Backpack", id = "137811828506497" },
-    { name = "US Open Pizza Slice Racket Bag", id = "128126920836733" },
-    { name = "[Content Deleted]", id = "9009176020414" },
-    { name = "[Content Deleted]", id = "11370879357510" },
-    { name = "Emirates Airplane Shoulder Pet", id = "125476772235106" },
-    { name = "Exclusive US Open UGC (lanyard)", id = "18963077939" },
-    { name = "US Open Racket Shades", id = "14532341736" },
-    { name = "Billie Jean King Glasses", id = "14532403795" },
-    { name = "Lobster Roll Shoulder Pet", id = "14532366140" }, 
-    { name = "Ralph Lauren US Open Reversible Bucket Hat", id = "90091760204142" }, 
-    { name = "SOLD OUT", id = "15633597919" },
-    { name = "Ralph Lauren US Open Ball Crew Short", id = "113708793575100" }
+    { name = "PATCHED ", id = "137811828506497" }
 }
 
-game:GetService("StarterGui"):SetCore("SendNotification", { Title = "US Open UGC GUI launched"; Text = "9 ugc available"; Icon = "rbxthumb://type=Asset&id=17834951927&w=150&h=150"}) Duration = 5;
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "PATCHED PATCHED PATCHED PATCHED "; Text = "9 ugc available"; Icon = "rbxthumb://type=Asset&id=17834951927&w=150&h=150"}) Duration = 5;
 
 local itemNames = {}
 for i, item in ipairs(items) do
