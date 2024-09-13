@@ -1802,14 +1802,14 @@ function DiscordLib:Window(text)
 
 		ChannelTitleFrame.Name = "ChannelTitleFrame"
 		ChannelTitleFrame.Parent = ServerFrame
-		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+		ChannelTitleFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ChannelTitleFrame.BorderSizePixel = 0
 		ChannelTitleFrame.Position = UDim2.new(0.294561088, 0, -0.000900391256, 0)
 		ChannelTitleFrame.Size = UDim2.new(0, 429, 0, 40)
 
 		Hashtag.Name = "Hashtag"
 		Hashtag.Parent = ChannelTitleFrame
-		Hashtag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Hashtag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		Hashtag.BackgroundTransparency = 1.000
 		Hashtag.BorderSizePixel = 0
 		Hashtag.Position = UDim2.new(0.0279720277, 0, 0, 0)
@@ -1821,7 +1821,7 @@ function DiscordLib:Window(text)
 
 		ChannelTitle.Name = "ChannelTitle"
 		ChannelTitle.Parent = ChannelTitleFrame
-		ChannelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ChannelTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ChannelTitle.BackgroundTransparency = 1.000
 		ChannelTitle.BorderSizePixel = 0
 		ChannelTitle.Position = UDim2.new(0.0862470865, 0, 0, 0)
@@ -1834,7 +1834,7 @@ function DiscordLib:Window(text)
 
 		ChannelContentFrame.Name = "ChannelContentFrame"
 		ChannelContentFrame.Parent = ServerFrame
-		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+		ChannelContentFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ChannelContentFrame.BorderSizePixel = 0
 		ChannelContentFrame.ClipsDescendants = true
 		ChannelContentFrame.Position = UDim2.new(0.294561088, 0, 0.106338218, 0)
@@ -1856,7 +1856,7 @@ function DiscordLib:Window(text)
 		ServerChannelHolder.Name = "ServerChannelHolder"
 		ServerChannelHolder.Parent = ServerContentFrame
 		ServerChannelHolder.Active = true
-		ServerChannelHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ServerChannelHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		ServerChannelHolder.BackgroundTransparency = 1.000
 		ServerChannelHolder.BorderSizePixel = 0
 		ServerChannelHolder.Position = UDim2.new(0.00535549596, 0, 0.0241984241, 0)
@@ -1890,7 +1890,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -1914,7 +1914,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Server,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(47, 49, 54)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 					TweenService:Create(
 						ServerBtnCorner,
@@ -1946,12 +1946,12 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							v,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(47, 49, 54)}
+							{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						TweenService:Create(
 							Server,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+							{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						TweenService:Create(
 							v.ServerCorner,
@@ -1992,7 +1992,7 @@ function DiscordLib:Window(text)
 			TweenService:Create(
 				Server,
 				TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-				{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+				{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 			):Play()
 			TweenService:Create(
 				ServerBtnCorner,
@@ -2020,7 +2020,7 @@ function DiscordLib:Window(text)
 
 			ChannelBtn.Name = text .. "ChannelBtn"
 			ChannelBtn.Parent = ServerChannelHolder
-			ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+			ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 			ChannelBtn.BorderSizePixel = 0
 			ChannelBtn.Position = UDim2.new(0.24118948, 0, 0.578947365, 0)
 			ChannelBtn.Size = UDim2.new(0, 160, 0, 30)
@@ -2036,7 +2036,7 @@ function DiscordLib:Window(text)
 
 			ChannelBtnHashtag.Name = "ChannelBtnHashtag"
 			ChannelBtnHashtag.Parent = ChannelBtn
-			ChannelBtnHashtag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			ChannelBtnHashtag.BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 			ChannelBtnHashtag.BackgroundTransparency = 1.000
 			ChannelBtnHashtag.BorderSizePixel = 0
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
@@ -2066,7 +2066,7 @@ function DiscordLib:Window(text)
 			ChannelHolder.Name = "ChannelHolder"
 			ChannelHolder.Parent = ChannelContentFrame
 			ChannelHolder.Active = true
-			ChannelHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			ChannelHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			ChannelHolder.BackgroundTransparency = 1.000
 			ChannelHolder.BorderSizePixel = 0
 			ChannelHolder.Position = UDim2.new(0.0360843192, 0, 0.0241984241, 0)
@@ -2074,7 +2074,7 @@ function DiscordLib:Window(text)
 			ChannelHolder.ScrollBarThickness = 6
 			ChannelHolder.CanvasSize = UDim2.new(0,0,0,0)
 			ChannelHolder.ScrollBarImageTransparency = 0
-			ChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(18, 19, 21)
+			ChannelHolder.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 			ChannelHolder.Visible = false
 			ChannelHolder.ClipsDescendants = false
 
@@ -2085,14 +2085,14 @@ function DiscordLib:Window(text)
 			
 			ChannelBtn.MouseEnter:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(52,55,60)
-					ChannelBtnTitle.TextColor3 = Color3.fromRGB(220,221,222)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+					ChannelBtnTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
 				end
 			end)
 			
 			ChannelBtn.MouseLeave:Connect(function()
 				if currentchanneltoggled ~= ChannelBtn.Name then
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 				end
 			end)
@@ -2106,13 +2106,13 @@ function DiscordLib:Window(text)
 				end
 				for i, v in next, ServerChannelHolder:GetChildren() do
 					if v.ClassName == "TextButton" then
-						v.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+						v.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 						v.ChannelBtnTitle.TextColor3 = Color3.fromRGB(114, 118, 125)
 					end
 					ServerFrame.Visible = true
 				end
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(57,60,67)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 			end)
@@ -2120,7 +2120,7 @@ function DiscordLib:Window(text)
 			if fc == false then
 				fc = true
 				ChannelTitle.Text = text
-				ChannelBtn.BackgroundColor3 = Color3.fromRGB(57,60,67)
+				ChannelBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ChannelBtnTitle.TextColor3 = Color3.fromRGB(255,255,255)
 				currentchanneltoggled = ChannelBtn.Name
 				ChannelHolder.Visible = true
@@ -2132,7 +2132,7 @@ function DiscordLib:Window(text)
 
 				Button.Name = "Button"
 				Button.Parent = ChannelHolder
-				Button.BackgroundColor3 = Color3.fromRGB(114, 137, 228)
+				Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Button.Size = UDim2.new(0, 401, 0, 30)
 				Button.AutoButtonColor = false
 				Button.Font = Enum.Font.Gotham
@@ -2148,7 +2148,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(103,123,196)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 				end)
 				
@@ -2166,7 +2166,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 				end)
 				ChannelHolder.CanvasSize = UDim2.new(0,0,0,ChannelHolderLayout.AbsoluteContentSize.Y)
@@ -2183,7 +2183,7 @@ function DiscordLib:Window(text)
 
 				Toggle.Name = "Toggle"
 				Toggle.Parent = ChannelHolder
-				Toggle.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Toggle.BorderSizePixel = 0
 				Toggle.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Toggle.Size = UDim2.new(0, 401, 0, 30)
@@ -2207,7 +2207,7 @@ function DiscordLib:Window(text)
 
 				ToggleFrame.Name = "ToggleFrame"
 				ToggleFrame.Parent = Toggle
-				ToggleFrame.BackgroundColor3 = Color3.fromRGB(114, 118, 125)
+				ToggleFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ToggleFrame.Position = UDim2.new(0.900481343, -5, 0.13300018, 0)
 				ToggleFrame.Size = UDim2.new(0, 40, 0, 21)
 
@@ -2230,23 +2230,23 @@ function DiscordLib:Window(text)
 				Icon.AnchorPoint = Vector2.new(0.5, 0.5)
 				Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Icon.BackgroundTransparency = 1.000
-				Icon.BorderColor3 = Color3.fromRGB(27, 42, 53)
+				Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
 				Icon.Image = "http://www.roblox.com/asset/?id=6035047409"
-				Icon.ImageColor3 = Color3.fromRGB(114, 118, 125)
+				Icon.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				
 				Toggle.MouseButton1Click:Connect(function()
 					if toggled == false then
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(67,181,129)}
+							{ImageColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(67,181,129)}
+							{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						ToggleFrameCircle:TweenPosition(UDim2.new(0.655, -5, 0.133000001, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 						TweenService:Create(
@@ -2265,12 +2265,12 @@ function DiscordLib:Window(text)
 						TweenService:Create(
 							Icon,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{ImageColor3 = Color3.fromRGB(114, 118, 125)}
+							{ImageColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						TweenService:Create(
 							ToggleFrame,
 							TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 = Color3.fromRGB(114, 118, 125)}
+							{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 						):Play()
 						ToggleFrameCircle:TweenPosition(UDim2.new(0.234999999, -5, 0.133000001, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 						TweenService:Create(
@@ -2313,7 +2313,7 @@ function DiscordLib:Window(text)
 
 				Slider.Name = "Slider"
 				Slider.Parent = ChannelHolder
-				Slider.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				Slider.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Slider.BorderSizePixel = 0
 				Slider.Position = UDim2.new(0, 0, 0.216560602, 0)
 				Slider.Size = UDim2.new(0, 401, 0, 38)
@@ -2338,7 +2338,7 @@ function DiscordLib:Window(text)
 				SliderFrame.Name = "SliderFrame"
 				SliderFrame.Parent = Slider
 				SliderFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-				SliderFrame.BackgroundColor3 = Color3.fromRGB(79, 84, 92)
+				SliderFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				SliderFrame.Position = UDim2.new(0.497999996, 0, 0.757000029, 0)
 				SliderFrame.Size = UDim2.new(0, 385, 0, 8)
 
@@ -2347,7 +2347,7 @@ function DiscordLib:Window(text)
 
 				CurrentValueFrame.Name = "CurrentValueFrame"
 				CurrentValueFrame.Parent = SliderFrame
-				CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
+				CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 8)
 
 				CurrentValueFrameCorner.Name = "CurrentValueFrameCorner"
@@ -2365,7 +2365,7 @@ function DiscordLib:Window(text)
 				ValueBubble.Name = "ValueBubble"
 				ValueBubble.Parent = Zip
 				ValueBubble.AnchorPoint = Vector2.new(0.5, 0.5)
-				ValueBubble.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+				ValueBubble.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ValueBubble.Position = UDim2.new(0.5, 0, -1.00800002, 0)
 				ValueBubble.Size = UDim2.new(0, 36, 0, 21)
 				ValueBubble.Visible = false
@@ -2391,7 +2391,7 @@ function DiscordLib:Window(text)
 				SquareBubble.Name = "SquareBubble"
 				SquareBubble.Parent = ValueBubble
 				SquareBubble.AnchorPoint = Vector2.new(0.5, 0.5)
-				SquareBubble.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+				SquareBubble.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				SquareBubble.BorderSizePixel = 0
 				SquareBubble.Position = UDim2.new(0.493000001, 0, 0.637999971, 0)
 				SquareBubble.Rotation = 45.000
@@ -2406,7 +2406,7 @@ function DiscordLib:Window(text)
 				GlowBubble.Size = UDim2.new(1, 30, 1, 30)
 				GlowBubble.ZIndex = 0
 				GlowBubble.Image = "rbxassetid://4996891970"
-				GlowBubble.ImageColor3 = Color3.fromRGB(15, 15, 15)
+				GlowBubble.ImageColor3 = Color3.fromRGB(0, 0, 0)
 				GlowBubble.ScaleType = Enum.ScaleType.Slice
 				GlowBubble.SliceCenter = Rect.new(20, 20, 280, 280)
 
@@ -2480,14 +2480,14 @@ function DiscordLib:Window(text)
 
 				Seperator1.Name = "Seperator1"
 				Seperator1.Parent = ChannelHolder
-				Seperator1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Seperator1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Seperator1.BackgroundTransparency = 1.000
 				Seperator1.Position = UDim2.new(0, 0, 0.350318581, 0)
 				Seperator1.Size = UDim2.new(0, 100, 0, 8)
 
 				Seperator2.Name = "Seperator2"
 				Seperator2.Parent = Seperator1
-				Seperator2.BackgroundColor3 = Color3.fromRGB(66, 69, 74)
+				Seperator2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Seperator2.BorderSizePixel = 0
 				Seperator2.Position = UDim2.new(0, 0, 0, 4)
 				Seperator2.Size = UDim2.new(0, 401, 0, 1)
@@ -2510,7 +2510,7 @@ function DiscordLib:Window(text)
 
 				Dropdown.Name = "Dropdown"
 				Dropdown.Parent = ChannelHolder
-				Dropdown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Dropdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Dropdown.BackgroundTransparency = 1.000
 				Dropdown.Position = UDim2.new(0.0796874985, 0, 0.445175439, 0)
 				Dropdown.Size = UDim2.new(0, 403, 0, 73)
@@ -2530,7 +2530,7 @@ function DiscordLib:Window(text)
 				DropdownFrameOutline.Name = "DropdownFrameOutline"
 				DropdownFrameOutline.Parent = DropdownTitle
 				DropdownFrameOutline.AnchorPoint = Vector2.new(0.5, 0.5)
-				DropdownFrameOutline.BackgroundColor3 = Color3.fromRGB(37, 40, 43)
+				DropdownFrameOutline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameOutline.Position = UDim2.new(0.988442957, 0, 1.6197437, 0)
 				DropdownFrameOutline.Size = UDim2.new(0, 396, 0, 36)
 
@@ -2540,7 +2540,7 @@ function DiscordLib:Window(text)
 
 				DropdownFrame.Name = "DropdownFrame"
 				DropdownFrame.Parent = DropdownTitle
-				DropdownFrame.BackgroundColor3 = Color3.fromRGB(48, 51, 57)
+				DropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrame.ClipsDescendants = true
 				DropdownFrame.Position = UDim2.new(0.00999999978, 0, 1.06638527, 0)
 				DropdownFrame.Selectable = true
@@ -2564,16 +2564,16 @@ function DiscordLib:Window(text)
 
 				ArrowImg.Name = "ArrowImg"
 				ArrowImg.Parent = CurrentSelectedText
-				ArrowImg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				ArrowImg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ArrowImg.BackgroundTransparency = 1.000
 				ArrowImg.Position = UDim2.new(1.84974098, 0, 0.167428851, 0)
 				ArrowImg.Size = UDim2.new(0, 22, 0, 22)
 				ArrowImg.Image = "http://www.roblox.com/asset/?id=6034818372"
-				ArrowImg.ImageColor3 = Color3.fromRGB(212, 212, 212)
+				ArrowImg.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
 				DropdownFrameBtn.Name = "DropdownFrameBtn"
 				DropdownFrameBtn.Parent = DropdownFrame
-				DropdownFrameBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				DropdownFrameBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameBtn.BackgroundTransparency = 1.000
 				DropdownFrameBtn.Size = UDim2.new(0, 392, 0, 32)
 				DropdownFrameBtn.Font = Enum.Font.SourceSans
@@ -2591,7 +2591,7 @@ function DiscordLib:Window(text)
 
 				DropdownFrameMainOutline.Name = "DropdownFrameMainOutline"
 				DropdownFrameMainOutline.Parent = DropdownTitle
-				DropdownFrameMainOutline.BackgroundColor3 = Color3.fromRGB(37, 40, 43)
+				DropdownFrameMainOutline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameMainOutline.Position = UDim2.new(-0.00155700743, 0, 2.16983342, 0)
 				DropdownFrameMainOutline.Size = UDim2.new(0, 396, 0, 81)
 				DropdownFrameMainOutline.Visible = false
@@ -2602,7 +2602,7 @@ function DiscordLib:Window(text)
 
 				DropdownFrameMain.Name = "DropdownFrameMain"
 				DropdownFrameMain.Parent = DropdownTitle
-				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+				DropdownFrameMain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropdownFrameMain.ClipsDescendants = true
 				DropdownFrameMain.Position = UDim2.new(0.00999999978, 0, 2.2568965, 0)
 				DropdownFrameMain.Selectable = true
@@ -2628,14 +2628,14 @@ function DiscordLib:Window(text)
 				DropItemHolder.Name = "ItemHolder"
 				DropItemHolder.Parent = DropItemHolderLabel
 				DropItemHolder.Active = true
-				DropItemHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				DropItemHolder.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				DropItemHolder.BackgroundTransparency = 1.000
 				DropItemHolder.Position = UDim2.new(0, 0, 0.215384638, 0)
 				DropItemHolder.Size = UDim2.new(0, 385, 0, 0)
 				DropItemHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
 				DropItemHolder.ScrollBarThickness = 6
 				DropItemHolder.BorderSizePixel = 0
-				DropItemHolder.ScrollBarImageColor3 = Color3.fromRGB(28, 29, 32)
+				DropItemHolder.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 
 				DropItemHolderLayout.Name = "ItemHolderLayout"
 				DropItemHolderLayout.Parent = DropItemHolder
@@ -2676,7 +2676,7 @@ function DiscordLib:Window(text)
 
 					Item.Name = "Item"
 					Item.Parent = DropItemHolder
-					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
+					Item.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
 					Item.Font = Enum.Font.SourceSans
@@ -2691,7 +2691,7 @@ function DiscordLib:Window(text)
 
 					ItemText.Name = "ItemText"
 					ItemText.Parent = Item
-					ItemText.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
+					ItemText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					ItemText.BackgroundTransparency = 1.000
 					ItemText.Position = UDim2.new(0.0211081803, 0, 0, 0)
 					ItemText.Size = UDim2.new(0, 192, 0, 29)
@@ -2767,7 +2767,7 @@ function DiscordLib:Window(text)
 
 					Item.Name = "Item"
 					Item.Parent = DropItemHolder
-					Item.BackgroundColor3 = Color3.fromRGB(42, 44, 48)
+					Item.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 					Item.Size = UDim2.new(0, 379, 0, 29)
 					Item.AutoButtonColor = false
 					Item.Font = Enum.Font.SourceSans
@@ -2849,7 +2849,7 @@ function DiscordLib:Window(text)
 
 				Colorpicker.Name = "Colorpicker"
 				Colorpicker.Parent = ChannelHolder
-				Colorpicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Colorpicker.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Colorpicker.BackgroundTransparency = 1.000
 				Colorpicker.Position = UDim2.new(0.0895741582, 0, 0.474232763, 0)
 				Colorpicker.Size = UDim2.new(0, 403, 0, 175)
@@ -2878,7 +2878,7 @@ function DiscordLib:Window(text)
 
 				ColorpickerFrame.Name = "ColorpickerFrame"
 				ColorpickerFrame.Parent = ColorpickerTitle
-				ColorpickerFrame.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				ColorpickerFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ColorpickerFrame.ClipsDescendants = true
 				ColorpickerFrame.Position = UDim2.new(0.00999999978, 0, 1.06638515, 0)
 				ColorpickerFrame.Selectable = true
@@ -2890,7 +2890,7 @@ function DiscordLib:Window(text)
 
 				Color.Name = "Color"
 				Color.Parent = ColorpickerFrame
-				Color.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+				Color.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Color.Position = UDim2.new(0, 10, 0, 10)
 				Color.Size = UDim2.new(0, 154, 0, 118)
 				Color.ZIndex = 10
@@ -2903,7 +2903,7 @@ function DiscordLib:Window(text)
 				ColorSelection.Name = "ColorSelection"
 				ColorSelection.Parent = Color
 				ColorSelection.AnchorPoint = Vector2.new(0.5, 0.5)
-				ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				ColorSelection.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				ColorSelection.BackgroundTransparency = 1.000
 				ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
 				ColorSelection.Size = UDim2.new(0, 18, 0, 18)
@@ -2912,7 +2912,7 @@ function DiscordLib:Window(text)
 
 				Hue.Name = "Hue"
 				Hue.Parent = ColorpickerFrame
-				Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Hue.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Hue.Position = UDim2.new(0, 171, 0, 10)
 				Hue.Size = UDim2.new(0, 18, 0, 118)
 
@@ -2921,13 +2921,13 @@ function DiscordLib:Window(text)
 				HueCorner.Parent = Hue
 
 				HueGradient.Color = ColorSequence.new {
-					ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)),
-					ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)),
-					ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)),
-					ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)),
-					ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)),
-					ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)),
-					ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))
+					ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(0.20, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(0.40, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(0.90, Color3.fromRGB(0, 0, 0)),
+					ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))
 				}				
 				HueGradient.Rotation = 270
 				HueGradient.Name = "HueGradient"
@@ -2936,7 +2936,7 @@ function DiscordLib:Window(text)
 				HueSelection.Name = "HueSelection"
 				HueSelection.Parent = Hue
 				HueSelection.AnchorPoint = Vector2.new(0.5, 0.5)
-				HueSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				HueSelection.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				HueSelection.BackgroundTransparency = 1.000
 				HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
 				HueSelection.Size = UDim2.new(0, 18, 0, 18)
@@ -3064,7 +3064,7 @@ function DiscordLib:Window(text)
 
 				Textbox.Name = "Textbox"
 				Textbox.Parent = ChannelHolder
-				Textbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Textbox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Textbox.BackgroundTransparency = 1.000
 				Textbox.Position = UDim2.new(0.0796874985, 0, 0.445175439, 0)
 				Textbox.Size = UDim2.new(0, 403, 0, 73)
@@ -3084,7 +3084,7 @@ function DiscordLib:Window(text)
 				TextboxFrameOutline.Name = "TextboxFrameOutline"
 				TextboxFrameOutline.Parent = TextboxTitle
 				TextboxFrameOutline.AnchorPoint = Vector2.new(0.5, 0.5)
-				TextboxFrameOutline.BackgroundColor3 = Color3.fromRGB(37, 40, 43)
+				TextboxFrameOutline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextboxFrameOutline.Position = UDim2.new(0.988442957, 0, 1.6197437, 0)
 				TextboxFrameOutline.Size = UDim2.new(0, 396, 0, 36)
 
@@ -3094,7 +3094,7 @@ function DiscordLib:Window(text)
 
 				TextboxFrame.Name = "TextboxFrame"
 				TextboxFrame.Parent = TextboxTitle
-				TextboxFrame.BackgroundColor3 = Color3.fromRGB(48, 51, 57)
+				TextboxFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				TextboxFrame.ClipsDescendants = true
 				TextboxFrame.Position = UDim2.new(0.00999999978, 0, 1.06638527, 0)
 				TextboxFrame.Selectable = true
@@ -3105,7 +3105,7 @@ function DiscordLib:Window(text)
 				TextboxFrameCorner.Parent = TextboxFrame
 
 				TextBox.Parent = TextboxFrame
-				TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				TextBox.BackgroundTransparency = 1.000
 				TextBox.Position = UDim2.new(0.0178571437, 0, 0, 0)
 				TextBox.Size = UDim2.new(0, 377, 0, 32)
@@ -3121,7 +3121,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						TextboxFrameOutline,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(114, 137, 228)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 				end)
 				
@@ -3129,7 +3129,7 @@ function DiscordLib:Window(text)
 					TweenService:Create(
 						TextboxFrameOutline,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(37, 40, 43)}
+						{BackgroundColor3 = Color3.fromRGB(0, 0, 0)}
 					):Play()
 					if ep then
 						if #TextBox.Text > 0 then
@@ -3183,7 +3183,7 @@ function DiscordLib:Window(text)
 
 				Keybind.Name = "Keybind"
 				Keybind.Parent = ChannelHolder
-				Keybind.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+				Keybind.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Keybind.BorderSizePixel = 0
 				Keybind.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Keybind.Size = UDim2.new(0, 401, 0, 30)
