@@ -1809,7 +1809,7 @@ task.spawn(
         local explorer = serv2:Channel("hi")
         explorer:Label("nothing here")
         main:Label(
-            "                            Wynerd loaded in " ..
+            "                            Syvern loaded in " ..
                 string.format("%s seconds.", string.format("%.2f", tostring(tick() - LOAD_TIME)))
         )
         pcall(
