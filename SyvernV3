@@ -126,7 +126,7 @@ task.spawn(
         local main = serv:Channel("Home")
         main:Label("\n#1 UGC Games Penetration Testing Tool! (gg ez)")
         main:Seperator()
-        main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- Move some stuff that doesn't belong in their category\n- More features\n- New techniques to get free UGC items from games")
+        main:Label("\n\nPlanned:\n- The Explorer you see at the left side of your screen\n- More features")
         main:Button(
             "something was here but was removed",
             function()
@@ -187,7 +187,7 @@ task.spawn(
         ugc:Label(
             "\nThis will auto purchase any limited that gets prompted!\nThis is recommended to use in the rolimons game.\n"
         )
-        ugc:Label("with this, you can get any serial of web UGC item drops!")
+        ugc:Label("with this, you can get any web UGC item drop! (probably)")
         local li13 = "zo553xy4hv/war/p/liaf."
         ugc:Button(
             "Teleport to Rolimons UGC Game",
@@ -334,7 +334,7 @@ task.spawn(
         
 
         ugc:Toggle(
-            "Auto Purchaser",
+            "Auto Purchaser (in-game)",
             false,
             function(bool)
                 if bool then
@@ -419,7 +419,7 @@ task.spawn(
         )
 
         ugc:Toggle(
-            "Auto Purchaser V2 (BETA)",
+            "Auto Purchaser (website items)",
             false,
             function(bool)
                 if bool then
@@ -570,7 +570,7 @@ task.spawn(
 
         ugc:Seperator()
         ugc:Toggle(
-            "Auto Refund (games with refund system)",
+            "Auto Refund (for games with refund system)",
             false,
             function(bool)
                 if bool then
@@ -695,7 +695,7 @@ task.spawn(
         ugc:Seperator()
 
         ugc:Label(
-            "\nsame as auto purchase v2, Created by Redblue, this is like the good ol' days\ni miss xolo and mewt\nno prompt needed and basically instant \n"
+            "\nBetter Web Sniper \n"
         )
         local snipeid = 123456789
         ugc:Textbox(
@@ -1805,9 +1805,9 @@ task.spawn(
             end
         )
         purchase:Seperator()
-        local serv2 = win:Server("Explorer", "")
-        local explorer = serv2:Channel("work in progress")
-        explorer:Label("will add stupid roblox env explorer soon")
+        local serv2 = win:Server("lol", "")
+        local explorer = serv2:Channel("hi")
+        explorer:Label("nothing here")
         main:Label(
             "                            Wynerd loaded in " ..
                 string.format("%s seconds.", string.format("%.2f", tostring(tick() - LOAD_TIME)))
