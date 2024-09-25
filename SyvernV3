@@ -190,7 +190,7 @@ task.spawn(
         ugc:Label("with this, you can get any web UGC item drop! (probably)")
         local li13 = "zo553xy4hv/war/p/liaf."
         ugc:Button(
-            "Teleport to Rolimons UGC Game",
+            "Teleport to Flex Your UGC Limiteds",
             function()
                 TeleportService:Teleport(14056754882, Players.LocalPlayer)
             end
