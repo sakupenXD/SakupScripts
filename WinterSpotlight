@@ -4,7 +4,7 @@ local window = Lib:CreateWindow("Winter Spotlight scripts UI")
 local tab = window:CreateTab("Main")
 
 local items = {
-    { name = "Royale High", id = "loadstring(game:HttpGet(""https://raw.githubusercontent.com/ToraScript/Script/main/RoyaleHighWinter" }
+    { name = "Royale High", id = ""loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/RoyaleHighWinter""" }
 }
 
 game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Welcome!"; Text = "Most scripts made by ToraIs Me"; Icon = "rbxthumb://type=Asset&id=17834951927&w=150&h=150"}) Duration = 5;
