@@ -7,7 +7,7 @@ local items = {
     { name = "Royale High", id = ""loadstring(game:HttpGet(""https://raw.githubusercontent.com/ToraScript/Script/main/RoyaleHighWinter"" }
 }
 
-game:GetService("StarterGui"):SetCore("SendNotification", { Title = "PATCHED PATCHED PATCHED PATCHED "; Text = "9 ugc available"; Icon = "rbxthumb://type=Asset&id=17834951927&w=150&h=150"}) Duration = 5;
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Welcome!"; Text = "Most scripts made by ToraIs Me"; Icon = "rbxthumb://type=Asset&id=17834951927&w=150&h=150"}) Duration = 5;
 
 local itemNames = {}
 for i, item in ipairs(items) do
